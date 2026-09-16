@@ -478,3 +478,96 @@ h1 span {
     font-size: 1.6rem;
   }
 }
+
+/* Skills section */
+
+.skills-section {
+  width: min(1200px, calc(100% - 64px));
+  margin: 0 auto;
+  padding: 120px 0;
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 90px;
+}
+
+.skills-heading h2 {
+  margin: 20px 0 28px;
+  color: #172628;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 5vw, 4.8rem);
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+.skills-heading h2 span {
+  display: block;
+  color: #0c766f;
+  font-style: italic;
+}
+
+.skills-heading > p:last-child {
+  max-width: 430px;
+  color: #627071;
+  line-height: 1.7;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid rgba(23, 38, 40, 0.18);
+}
+
+.skill-card {
+  padding: 28px 24px 34px;
+  border-right: 1px solid rgba(23, 38, 40, 0.18);
+  border-bottom: 1px solid rgba(23, 38, 40, 0.18);
+}
+
+.skill-card:nth-child(even) {
+  border-right: none;
+}
+
+.skill-label {
+  color: #0c766f;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.skill-card h3 {
+  margin: 24px 0 14px;
+  color: #172628;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+.skill-card > p:last-child {
+  color: #667475;
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 850px) {
+  .skills-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 85px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-section {
+    width: calc(100% - 40px);
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    border-right: none;
+  }
+}
