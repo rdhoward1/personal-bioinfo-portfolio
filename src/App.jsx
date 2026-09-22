@@ -1,4 +1,5 @@
 import "./App.css";
+import Navigation from "./Navigation";
 import About from "./About";
 import Projects from "./Projects";
 import Skills from "./Skills";
@@ -7,24 +8,8 @@ import Publications from "./Publications";
 function App() {
   return (
     <main>
-      {/* Navigation */}
-      <header className="site-header">
-        <a className="brand" href="#home">
-          <span className="initials">RH</span>
-          <span>Rachel Howard</span>
-        </a>
+      <Navigation />
 
-        <nav>
-          <a href="#about">About</a>
-          <a href="#expertise">Expertise</a>
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
-          <a href="#publications">Publications</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
-
-      {/* Opening section */}
       <section className="hero" id="home">
         <p className="eyebrow">
           Computational Biologist · Big Data Enthusiast
