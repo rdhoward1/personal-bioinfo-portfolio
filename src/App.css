@@ -663,6 +663,13 @@ h1 span {
   line-height: 1.7;
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 16px;
+}
+
 .footer-contact a {
   display: inline-block;
   margin-top: 16px;

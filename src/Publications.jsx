@@ -43,13 +43,23 @@ function Publications() {
             complex, real-world problems.
           </p>
 
-          <a
-            href="https://github.com/rdhoward1"
-            target="_blank"
-            rel="noreferrer"
-          >
-            View my GitHub →
-          </a>
+          <div className="footer-links">
+            <a
+              href="https://github.com/rdhoward1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View my GitHub →
+            </a>
+
+            <a
+              href={`${import.meta.env.BASE_URL}Rachel_Howard_CV.pdf`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              View my CV →
+            </a>
+          </div>
         </div>
 
         <div className="footer-bottom">
