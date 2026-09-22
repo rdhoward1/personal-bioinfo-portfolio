@@ -26,7 +26,7 @@ function Publications() {
         </a>
       </section>
 
-      <footer className="site-footer">
+      <footer className="site-footer" id="contact">
         <div className="footer-heading">
           <p className="eyebrow">Let&apos;s connect</p>
 
@@ -45,11 +45,26 @@ function Publications() {
 
           <div className="footer-links">
             <a
+              href="mailto:racheld.howard1@gmail.com"
+              aria-label="Email Rachel Howard"
+            >
+              Email me →
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/rachel-howard-b2a685230/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View LinkedIn →
+            </a>
+
+            <a
               href="https://github.com/rdhoward1"
               target="_blank"
               rel="noreferrer"
             >
-              View my GitHub →
+              View GitHub →
             </a>
 
             <a

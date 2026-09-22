@@ -20,6 +20,7 @@ function App() {
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
           <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
         </nav>
       </header>
 
