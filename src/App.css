@@ -738,3 +738,115 @@ h1 span {
     gap: 10px;
   }
 }
+
+/* About and experience section */
+
+.about-section {
+  width: min(1200px, calc(100% - 64px));
+  margin: 0 auto;
+  padding: 120px 0;
+  border-top: 1px solid rgba(23, 38, 40, 0.18);
+}
+
+.about-heading {
+  max-width: 900px;
+  margin-bottom: 70px;
+}
+
+.about-heading h2 {
+  margin: 20px 0 0;
+  color: #172628;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+.about-heading h2 span {
+  display: block;
+  color: #0c766f;
+  font-style: italic;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 90px;
+}
+
+.about-text {
+  color: #627071;
+  line-height: 1.8;
+}
+
+.about-introduction {
+  color: #172628;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.experience-list {
+  border-top: 1px solid rgba(23, 38, 40, 0.18);
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 30px;
+  padding: 28px 0;
+  border-bottom: 1px solid rgba(23, 38, 40, 0.18);
+}
+
+.experience-date {
+  color: #0c766f;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.experience-item h3 {
+  margin: 0 0 8px;
+  color: #172628;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+.experience-organization {
+  color: #0c766f;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.experience-item div > p:last-child {
+  margin-bottom: 0;
+  color: #667475;
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 850px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    width: calc(100% - 40px);
+    padding: 80px 0;
+  }
+
+  .about-heading {
+    margin-bottom: 50px;
+  }
+
+  .experience-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}

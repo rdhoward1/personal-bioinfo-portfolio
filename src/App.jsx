@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./About";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Publications from "./Publications";
@@ -14,6 +15,7 @@ function App() {
         </a>
 
         <nav>
+          <a href="#about">About</a>
           <a href="#expertise">Expertise</a>
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
@@ -50,6 +52,8 @@ function App() {
           </a>
         </div>
       </section>
+
+      <About />
 
       {/* Expertise section */}
       <section className="expertise-section" id="expertise">
