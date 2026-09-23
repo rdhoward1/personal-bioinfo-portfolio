@@ -49,10 +49,9 @@ function About() {
               <p>
                 Lead multi-omics integration and bioinformatics efforts, 
                 analyzing bulk RNA-seq data and integrating host, symbiont, 
-                microbiome, and clinical datasets using mixOmics, DIABLO, 
-                and supervised machine learning. Develop reproducible computational 
-                workflows, functional analyses, publication-quality visualizations, 
-                and bioinformatics training resources.
+                microbiome, and clinical datasets using supervised machine learning. 
+                Develop reproducible computational workflows, functional analyses, 
+                publication-quality visualizations, and bioinformatics training resources.
               </p>
             </div>
           </article>
