@@ -3,13 +3,24 @@
 }
 
 .hero {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 1100px;
+  min-height: calc(100vh - 82px);
+  max-width: 1200px;
   margin: 0 auto;
   padding: 80px 32px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+  align-items: center;
+  gap: 70px;
+}
+
+.hero-copy {
+  min-width: 0;
 }
 
 .eyebrow {
@@ -22,11 +33,11 @@
 }
 
 h1 {
-  max-width: 900px;
+  max-width: 760px;
   margin: 0;
   color: #172628;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(3.25rem, 7vw, 6.25rem);
+  font-size: clamp(3.25rem, 6vw, 6rem);
   font-weight: 400;
   letter-spacing: -0.06em;
   line-height: 0.9;
@@ -70,13 +81,51 @@ h1 span {
   transform: translateY(-2px);
 }
 
+.hero-image-container {
+  width: 100%;
+  max-width: 380px;
+  justify-self: end;
+}
+
+.hero-image {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Stack the hero on tablets and smaller screens */
+@media (max-width: 900px) {
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+
+  .hero-image-container {
+    width: min(100%, 500px);
+    max-width: none;
+    justify-self: start;
+  }
+}
+
+/* Hero adjustments for phones */
 @media (max-width: 600px) {
   .hero {
-    padding: 60px 20px;
+    padding: 60px 20px 80px;
   }
 
   h1 {
     font-size: 2.8rem;
+  }
+
+  .introduction {
+    margin-top: 30px;
+    font-size: 1rem;
   }
 
   .buttons {
@@ -86,6 +135,14 @@ h1 span {
   .buttons a {
     text-align: center;
   }
+
+  .hero-content {
+    gap: 40px;
+  }
+
+  .hero-image-container {
+  width: 100%;
+}
 }
 
 /* Navigation */
