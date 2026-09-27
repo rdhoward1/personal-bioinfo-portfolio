@@ -21,11 +21,10 @@ function App() {
         </h1>
 
         <p className="introduction">
-          I develop reproducible, interpretable workflows for high-dimensional biological data, 
-          integrating transcriptomic, microbial, and multi-omic datasets to uncover biological 
-          responses to disease. 
-          Using machine learning and AI-driven approaches, I identify cross-omic patterns and candidate 
-          biomarkers that advance our understanding of complex disease processes.
+          I integrate transcriptomic, microbiome, phenotypic, and clinical data to investigate host-microbe 
+          interactions, symbiosis, and disease. I build reproducible analytical workflows and apply 
+          machine learning, multivariate statistics, and feature-selection methods to uncover coordinated 
+          biological signatures and candidate biomarkers across complex datasets.
         </p>
 
         <div className="buttons">
@@ -64,10 +63,11 @@ function App() {
 
           <article className="expertise-card">
             <p className="card-number">02</p>
-            <h3>Statistical learning</h3>
+            <h3>Machine learning</h3>
             <p>
-              I apply multivariate statistics and machine-learning methods to
-              complex, high-dimensional biological datasets.
+              I develop, tune, and evaluate supervised models for high-dimensional
+              biological data using feature selection, cross-validation, balanced error
+             rates, confusion matrices, and ROC-AUC.
             </p>
           </article>
 

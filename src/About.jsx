@@ -13,22 +13,26 @@ function About() {
       <div className="about-content">
         <div className="about-text">
           <p className="about-introduction">
-            I am a computational biologist and microbial ecologist with
-            experience analyzing complex genomic and ecological datasets.
+            I am a computational biologist specializing in multi-omics
+            integration, machine learning, and the biology of host-microbe and
+            host-symbiont interactions.
           </p>
 
           <p>
-            My research examines how microbial communities, animal hosts, and
-            their symbiotic partners respond to environmental change and
-            disease. I combine biological domain knowledge with RNA-seq,
-            microbial community analysis, multi-omics integration, statistical
-            learning, and reproducible bioinformatics.
+            My research brings together host transcriptomics, symbiont
+            transcriptomics, microbiome profiles, and clinical/phenotypic
+            measurements to understand biological responses to disease and
+            physiological stress. I use supervised machine learning,
+            multivariate modeling, feature selection, and functional
+            interpretation to identify predictive biological signatures that
+            may be missed when each dataset is analyzed separately.
           </p>
 
           <p>
-            I am especially interested in applying these skills to
-            collaborative research and industry problems where complex
-            biological data can inform meaningful decisions.
+            A defining strength of my work is analytical adaptability. I can
+            quickly learn new data types and computational methods, understand
+            their assumptions and limitations, develop reproducible workflows,
+            and translate the results into meaningful biological insights.
           </p>
         </div>
 
@@ -43,21 +47,19 @@ function About() {
                 University of Texas at Arlington · Department of Biology
               </p>
 
-              <p className="experience-advisor">
-              </p>
-
               <p>
-                Lead multi-omics integration and bioinformatics efforts, 
-                analyzing bulk RNA-seq data and integrating host, symbiont, 
-                microbiome, and clinical datasets using supervised machine learning. 
-                Develop reproducible computational workflows, functional analyses, 
-                publication-quality visualizations, and bioinformatics training resources.
+                Lead multi-omics integration and bioinformatics efforts,
+                combining host and symbiont transcriptomics, microbiome
+                profiles, and phenotypic data. Apply supervised machine learning,
+                multiblock modeling, feature selection, and functional analysis
+                to identify coordinated molecular signatures associated with
+                disease.
               </p>
             </div>
           </article>
 
           <article className="experience-item">
-            <p className="experience-date">2024–2025</p>
+            <p className="experience-date">2024-2025</p>
 
             <div>
               <h3>Postdoctoral Scholar</h3>
@@ -67,15 +69,16 @@ function About() {
               </p>
 
               <p>
-                Conducted global-change bioinformatics research involving
-                RNA-seq, microbial community analysis, multi-omics, research
-                training, and interdisciplinary collaboration.
+                Developed reproducible bioinformatics analyses for
+                transcriptomic and microbial community data while supporting
+                interdisciplinary research, computational training, and
+                collaborative project development.
               </p>
             </div>
           </article>
 
           <article className="experience-item">
-            <p className="experience-date">2019–2024</p>
+            <p className="experience-date">2019-2024</p>
 
             <div>
               <h3>Ph.D., Soil, Water, and Ecosystem Sciences</h3>
@@ -85,10 +88,10 @@ function About() {
               </p>
 
               <p>
-                Investigated coral-associated microbial and functional
-                responses to marine deoxygenation using field experiments, 16S
-                sequencing, metatranscriptomics, and high-performance
-                computing.
+                Investigated interactions among coral hosts and their associated
+                microbial communities using field experiments, 16S sequencing,
+                metatranscriptomics, statistical modeling, and
+                high-performance computing.
               </p>
             </div>
           </article>

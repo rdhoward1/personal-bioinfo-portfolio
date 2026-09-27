@@ -1,45 +1,45 @@
 const skillGroups = [
   {
     number: "01",
-    category: "Languages",
+    category: "Programming",
     title: "R · Python · Bash",
     description:
-      "Statistical analysis, bioinformatics workflows, visualization, automation, and reproducible reporting.",
+      "Statistical analysis, workflow automation, data visualization, command-line scripting, and reproducible reporting with R Markdown.",
   },
   {
     number: "02",
-    category: "Omics",
-    title: "RNA-seq · 16S · Multi-omics",
+    category: "Omics analysis",
+    title: "RNA-seq · 16S rRNA · Multi-omics",
     description:
-      "Sequence processing, normalization, differential analysis, functional annotation, and data integration.",
+      "Sequence processing, normalization, differential expression, functional annotation, pathway enrichment, and integration across molecular data types.",
   },
   {
     number: "03",
-    category: "Modeling",
-    title: "DIABLO · ML · Networks",
+    category: "Machine learning",
+    title: "Predictive modeling · DIABLO",
     description:
-      "Feature selection, cross-validation, multivariate classification, WGCNA, and interpretable network analysis.",
+      "Supervised classification, feature selection, model tuning, cross-validation, and performance evaluation using balanced error rates, confusion matrices, and ROC–AUC.",
   },
   {
     number: "04",
-    category: "Computing",
-    title: "HPC · Git · Linux",
+    category: "Computing and workflows",
+    title: "HPC · Git/GitHub · Linux",
     description:
-      "Scalable command-line workflows, version control, dependency-aware pipelines, and large biological datasets.",
+      "Scalable command-line workflows, version control, reproducible pipeline development, and analysis of large biological datasets on high-performance systems.",
   },
   {
     number: "05",
-    category: "Visualization",
-    title: "ggplot2 · Cytoscape",
+    category: "Data visualization",
+    title: "ggplot2 · ComplexHeatmap · Cytoscape",
     description:
-      "Publication-quality figures, multi-omic networks, clustered heatmaps, and stakeholder-ready outputs.",
+      "Publication-quality figures, clustered heatmaps, multivariate visualizations, and interpretable multi-omic correlation networks.",
   },
   {
     number: "06",
-    category: "Community ecology",
-    title: "Microbial statistics",
+    category: "Microbiome bioinformatics",
+    title: "DADA2 · phyloseq · vegan",
     description:
-      "PERMANOVA, indicator species analysis, differential abundance, compositional data, and experimental design.",
+      "Compositional data analysis, PERMANOVA, differential abundance, indicator species analysis, WGCNA, and host-associated microbiome analysis.",
   },
 ];
 
@@ -50,13 +50,17 @@ function Skills() {
         <p className="eyebrow">Technical toolkit</p>
 
         <h2>
-          From raw data to
-          <span> clear decisions.</span>
+          Across data types.
+          <span> Into biological insight.</span>
         </h2>
 
         <p>
-          I combine biological domain knowledge with computational methods to
-          develop rigorous, reproducible, and interpretable analyses.
+          I work across diverse molecular datasets and select analytical
+          methods based on the biological question, experimental design, and
+          structure of the data. My experience spans individual omics
+          workflows, integrated multi-omics modeling, and supervised machine
+          learning for classification, feature selection, and candidate
+          biomarker discovery.
         </p>
       </div>
 
@@ -68,6 +72,7 @@ function Skills() {
             </p>
 
             <h3>{skill.title}</h3>
+
             <p>{skill.description}</p>
           </article>
         ))}

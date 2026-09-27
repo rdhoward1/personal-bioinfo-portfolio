@@ -13,73 +13,100 @@ const filters = [
 const projects = [
   {
     number: "01",
-    title: "Multi-omics signatures of coral disease",
-    category: "Integrative modeling",
+    title: "Multi-omics signatures of disease in a holobiont system",
+    category: "Integrative machine learning",
     summary:
-      "Integrated host and algal symbiont transcriptomes with 16S microbiome profiles to investigate coordinated holobiont responses to stony coral tissue loss disease.",
+      "Integrated host and algal symbiont transcriptomes with 16S microbiome profiles to investigate coordinated holobiont responses to stony coral tissue loss disease (SCTLD).",
     contribution:
       "Built and tuned species-specific DIABLO models, evaluated classification performance, and translated selected features into interpretable biological networks.",
-    skills: ["Multi-omics", "Machine learning", "R"],
+    skills: ["Multi-omics", "Machine learning", "Microbiome", "RNA-seq", "HPC", "R"],
     methods: [
       "mixOmics",
       "DIABLO",
       "DESeq2",
-      "CLR transformation",
+      "16S rRNA data processing",
+      "Multi-omics integration",
+      "Model tuning",
+      "Feature selection",
       "Cross-validation",
+      "Model evaluation",
+      "KEGG pathway enrichment",
+      "ComplexHeatmap",
+      "ggplot2",
       "Cytoscape",
+      "HPC",
+      "R",
     ],
   },
   {
     number: "02",
-    title: "Coral metatranscriptomics under hypoxia",
-    category: "RNA-seq at scale",
+    title: "Host-associated microbiome metatranscriptomics under hypoxia",
+    category: "RNA-seq & metatranscriptomics",
     summary:
-      "Analyzed coral-associated gene expression during diel hypoxia exposure and recovery to characterize functional responses to changing oxygen conditions.",
+    "Analyzed gene expression within the coral-associated microbiome during diel hypoxia exposure and recovery to characterize microbial functional responses to changing oxygen conditions.",
     contribution:
       "Developed an HPC workflow spanning read processing, de novo transcriptome assembly, ORF prediction, functional annotation, quantification, and differential expression.",
-    skills: ["RNA-seq", "HPC", "R"],
+    skills: ["RNA-seq", "Microbiome", "HPC", "R"],
     methods: [
+      "FastQC",
+      "Trimmomatic",
+      "SortMeRNA",
       "Trinity",
+      "Bowtie2 & RSEM",
       "TransDecoder",
       "Trinotate",
-      "eggNOG",
-      "Salmon",
+      "NOISeq",
+      "UniProt",
+      "KEGG pathway enrichment",
+      "ggplot2",
       "Bash",
+      "R",
     ],
   },
   {
     number: "03",
-    title: "Coral microbiomes across oxygen gradients",
-    category: "Microbial community ecology",
+    title: "Host-associated microbiomes across oxygen gradients",
+    category: "Microbial community analysis",
     summary:
       "Examined coral-associated microbial community structure across experimental deoxygenation treatments and field sites in Bocas del Toro, Panama.",
     contribution:
       "Developed reproducible 16S workflows and multivariate analyses to evaluate differences associated with host species, site, depth, and oxygen conditions.",
     skills: ["Microbiome", "HPC", "R"],
     methods: [
+      "16S rRNA data processing",
+      "Cutadapt",
       "DADA2",
       "phyloseq",
       "vegan",
       "PERMANOVA",
       "ANCOM-BC",
+      "Indicator species",
       "ggplot2",
+      "HPC",
+      "R",
     ],
   },
   {
     number: "04",
-    title: "Coral immunity and microbial symbiosis",
-    category: "Host–microbe interactions",
+    title: "Host immunity and microbial symbiosis",
+    category: "Host-microbe interactions",
     summary:
-      "Investigated microbial communities in symbiotic and aposymbiotic Astrangia poculata alongside measurements of host immune function.",
+      "Investigated microbial communities in symbiotic and aposymbiotic model cnidarian systems alongside measurements of host immune function.",
     contribution:
       "Connected microbial community profiles with enzyme activity measurements using multivariate statistics, network analysis, and interpretable visualization.",
-    skills: ["Microbiome", "Machine learning", "R"],
+    skills: ["Microbiome", "HPC", "R"],
     methods: [
-      "16S rRNA",
+      "16S rRNA data processing",
+      "Cutadapt",
+      "DADA2",
+      "phyloseq",
+      "vegan",
+      "PERMANOVA",
       "WGCNA",
       "Indicator species",
-      "Community statistics",
-      "ComplexHeatmap",
+      "ggplot2",
+      "HPC",
+      "R",
     ],
   },
 ];
@@ -113,9 +140,12 @@ function Projects() {
             </h2>
           </div>
 
-          <p className="projects-introduction">
-            Filter my work to see how I apply computational methods across
-            different biological questions.
+            <p className="projects-introduction">
+              My work spans multiple molecular data types and biological scales,
+              from individual gene-expression responses to interactions among hosts,
+              symbionts, and microbial communities. Explore how I use multi-omics
+              integration, machine learning, and reproducible bioinformatics to
+              identify predictive features and generate biological insights.
           </p>
         </div>
 

@@ -39,8 +39,10 @@ function Publications() {
         <div className="footer-contact">
           <p>
             I am interested in computational biology and bioinformatics roles
-            where rigorous analysis and biological insight can help solve
-            complex, real-world problems.
+            where I can integrate diverse molecular datasets, develop
+            reproducible analytical workflows, and apply machine learning to
+            transform high-dimensional data into meaningful biological
+            insights.
           </p>
 
           <div className="footer-links">
@@ -79,7 +81,7 @@ function Publications() {
 
         <div className="footer-bottom">
           <p>Rachel Howard, Ph.D.</p>
-          <p>Computational Biology · Bioinformatics · Microbial Ecology</p>
+          <p>Multi-Omics · Machine Learning · Host-Microbe Biology</p>
         </div>
       </footer>
     </>
