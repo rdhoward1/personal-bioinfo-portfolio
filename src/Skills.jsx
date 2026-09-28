@@ -54,7 +54,7 @@ function Skills() {
           <span> Into biological insight.</span>
         </h2>
 
-        <p>
+        <p className="skills-introduction">
           I work across diverse molecular datasets and select analytical
           methods based on the biological question, experimental design, and
           structure of the data. My experience spans individual omics
@@ -62,6 +62,15 @@ function Skills() {
           learning for classification, feature selection, and candidate
           biomarker discovery.
         </p>
+
+<div className="skills-image-container">
+  <img
+    className="skills-image"
+    src={`${import.meta.env.BASE_URL}Toolkit.png`}
+    alt="Scientific research related to Rachel Howard's work"
+    loading="lazy"
+  />
+</div>
       </div>
 
       <div className="skills-grid">

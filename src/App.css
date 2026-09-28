@@ -93,6 +93,7 @@ h1 span {
   display: block;
   object-fit: cover;
   object-position: center;
+  border-radius: 18px;
 }
 
 /* Stack the hero on tablets and smaller screens */
@@ -564,10 +565,23 @@ h1 span {
   font-style: italic;
 }
 
-.skills-heading > p:last-child {
+.skills-introduction {
   max-width: 430px;
   color: #627071;
   line-height: 1.7;
+}
+
+.skills-image-container {
+  width: 100%;
+  max-width: 520px;
+  margin-top: 36px;
+}
+
+.skills-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
 }
 
 .skills-grid {
