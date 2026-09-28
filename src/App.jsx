@@ -24,7 +24,7 @@ function App() {
 
             <p className="introduction">
               I integrate transcriptomic, microbiome, phenotypic, and clinical
-              data to investigate host–microbe interactions, symbiosis, and
+              data to investigate host-microbe interactions, symbiosis, and
               disease. I build reproducible analytical workflows and apply
               machine learning, multivariate statistics, and feature-selection
               methods to uncover coordinated biological signatures and
@@ -56,14 +56,24 @@ function App() {
 
       {/* Expertise section */}
       <section className="expertise-section" id="expertise">
-        <div className="section-heading">
+        <div className="section-heading expertise-heading">
+         <div className="expertise-heading-text">
           <p className="eyebrow">What I bring</p>
 
           <h2>
             Research depth.
-            <span> Industry-ready analysis.</span>
-          </h2>
-        </div>
+          <span> Industry-ready analysis.</span>
+        </h2>
+      </div>
+
+      <div className="expertise-heading-image">
+        <img
+          src={`${import.meta.env.BASE_URL}Network.png`}
+          alt="Multi-omics correlation network visualization"
+          loading="lazy"
+        />
+      </div>
+    </div>
 
         <div className="expertise-grid">
           <article className="expertise-card">
