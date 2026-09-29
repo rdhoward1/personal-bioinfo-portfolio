@@ -199,7 +199,7 @@ h1 span {
 .expertise-section {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 32px 120px;
+  padding: 35px 32px 60px;
 }
 
 .section-heading {
@@ -324,8 +324,8 @@ h1 span {
   }
 
   .expertise-section {
-  padding: 45px 20px 80px;
-  }
+  padding: 30px 20px 45px;
+}
   
   .expertise-grid {
     grid-template-columns: 1fr;
@@ -349,7 +349,7 @@ h1 span {
 /* Projects section */
 
 .projects-section {
-  padding: 120px 0;
+  padding: 60px 0;
   background-color: #ebe3d6;
 }
 
@@ -360,7 +360,7 @@ h1 span {
 
 .projects-heading {
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: space-between;
   gap: 60px;
   margin-bottom: 50px;
@@ -382,7 +382,8 @@ h1 span {
 }
 
 .projects-introduction {
-  max-width: 380px;
+  max-width: 430px;
+  margin: 0;
   color: #627071;
   line-height: 1.7;
 }
@@ -545,8 +546,8 @@ h1 span {
 
 @media (max-width: 600px) {
   .projects-section {
-    padding: 80px 0;
-  }
+  padding: 45px 0;
+}
 
   .projects-container {
     width: calc(100% - 40px);
@@ -579,7 +580,7 @@ h1 span {
 .skills-section {
   width: min(1200px, calc(100% - 64px));
   margin: 0 auto;
-  padding: 120px 0;
+  padding: 60px 0 120px;
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
   gap: 90px;
@@ -660,10 +661,10 @@ h1 span {
 
 @media (max-width: 850px) {
   .skills-section {
-    grid-template-columns: 1fr;
-    gap: 40px;
-    padding: 85px 0;
-  }
+  grid-template-columns: 1fr;
+  gap: 40px;
+  padding: 45px 0 85px;
+}
 }
 
 @media (max-width: 600px) {
@@ -852,7 +853,7 @@ h1 span {
 .about-section {
   width: min(1200px, calc(100% - 64px));
   margin: 0 auto;
-  padding: 120px 0 60px;
+  padding: 120px 0 35px;
   border-top: 1px solid rgba(23, 38, 40, 0.18);
 }
 
@@ -946,8 +947,8 @@ h1 span {
 @media (max-width: 600px) {
   .about-section {
   width: calc(100% - 40px);
-  padding: 80px 0 45px;
-  }
+  padding: 80px 0 30px;
+}
 
   .about-heading {
     margin-bottom: 50px;

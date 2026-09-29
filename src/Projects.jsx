@@ -139,7 +139,7 @@ function Projects() {
               <span> method.</span>
             </h2>
           </div>
-
+          
             <p className="projects-introduction">
               My work spans multiple molecular data types and biological scales,
               from individual gene-expression responses to interactions among hosts,
@@ -148,7 +148,7 @@ function Projects() {
               identify predictive features and generate biological insights.
           </p>
         </div>
-
+        
         <div className="filter-buttons">
           {filters.map((filter) => (
             <button

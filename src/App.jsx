@@ -23,10 +23,10 @@ function App() {
             </h1>
 
             <p className="introduction">
-              I integrate transcriptomic, microbiome, phenotypic, and clinical
+              I integrate big 'omics data, phenotypic, and clinical
               data to investigate host-microbe interactions, symbiosis, and
-              disease. I build reproducible analytical workflows and apply
-              machine learning, multivariate statistics, and feature-selection
+              disease. I build reproducible analytical workflows and apply 
+              multivariate statistics, machine learning, and feature-selection
               methods to uncover coordinated biological signatures and
               candidate biomarkers across complex datasets.
             </p>
@@ -45,7 +45,7 @@ function App() {
           <div className="hero-image-container">
             <img
               className="hero-image"
-              src={`${import.meta.env.BASE_URL}RHow.jpg`}
+              src={`${import.meta.env.BASE_URL}Rhow.jpg`}
               alt="Rachel Howard, computational biologist"
             />
           </div>
