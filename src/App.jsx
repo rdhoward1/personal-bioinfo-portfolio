@@ -14,21 +14,21 @@ function App() {
         <div className="hero-content">
           <div className="hero-copy">
             <p className="eyebrow">
-              Computational Biologist · Big Data Enthusiast
+              Computational Biologist · Multi-Omics &amp; Machine Learning
             </p>
 
             <h1>
-              Finding signal in
-              <span> complex biology.</span>
+              Integrating complex data.
+              <span> Advancing biological discovery.</span>
             </h1>
 
             <p className="introduction">
-              I integrate big 'omics data, phenotypic, and clinical
-              data to investigate host-microbe interactions, symbiosis, and
+              I apply machine learning to integrate big 'omics data, phenotypic, and 
+              clinical data to investigate host-microbe interactions, symbiosis, and
               disease. I build reproducible analytical workflows and apply 
               multivariate statistics, machine learning, and feature-selection
               methods to uncover coordinated biological signatures and
-              candidate biomarkers across complex datasets.
+              biomarkers, revealing patterns associated with health and disease.
             </p>
 
             <div className="buttons">
