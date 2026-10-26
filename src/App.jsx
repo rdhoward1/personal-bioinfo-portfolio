@@ -62,7 +62,7 @@ function App() {
 
           <h2>
             Research depth.
-          <span> Industry-ready analysis.</span>
+          <span> Adaptable workflows.</span>
         </h2>
       </div>
 
@@ -82,8 +82,8 @@ function App() {
             <h3>Integrative omics</h3>
 
             <p>
-              I connect transcriptomic, microbial, and phenotypic data to
-              identify coordinated biological signatures.
+              I connect transcriptomic, microbiome, and phenotypic data to
+              identify coordinated biological signatures in holobionts.
             </p>
           </article>
 
@@ -94,9 +94,9 @@ function App() {
 
             <p>
               I develop, tune, and evaluate supervised models for
-              high-dimensional biological data using feature selection,
-              cross-validation, balanced error rates, confusion matrices, and
-              ROC–AUC.
+              high-dimensional biological data using latent components, 
+              feature selection, cross-validation, error rates, 
+              confusion matrices, and ROC–AUC.
             </p>
           </article>
 

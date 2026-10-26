@@ -14,25 +14,23 @@ function About() {
         <div className="about-text">
           <p className="about-introduction">
             I am a computational biologist specializing in multi-omics
-            integration, machine learning, and the biology of host-microbe and
-            host-symbiont interactions.
+            integration, machine learning, and the biology of holobiont
+            interactions.
           </p>
 
           <p>
-            My research brings together host transcriptomics, symbiont
-            transcriptomics, microbiome profiles, and clinical/phenotypic
+            My research brings together 'omics profiles and phenotypic
             measurements to understand biological responses to disease and
-            physiological stress. I use supervised machine learning,
-            multivariate modeling, feature selection, and functional
-            interpretation to identify predictive biological signatures that
-            may be missed when each dataset is analyzed separately.
+            physiological stress. Through multivariate modeling, machine learning,
+            and functional interpretation, I identify biological signatures and 
+            relationships that may be missed when analyzing single modalities alone.
           </p>
 
           <p>
-            A defining strength of my work is analytical adaptability. I can
-            quickly learn new data types and computational methods, understand
-            their assumptions and limitations, develop reproducible workflows,
-            and translate the results into meaningful biological insights.
+            My work combines computational expertise, hands-on laboratory experience, 
+            and deep biological understanding. This foundation allows me to adapt methods 
+            to new data types, critically evaluate their assumptions and limitations, develop 
+            reproducible workflows, and translate results into meaningful biological insights. 
           </p>
         </div>
 
@@ -88,7 +86,7 @@ function About() {
               </p>
 
               <p>
-                Investigated interactions among coral hosts and their associated
+                Investigated interactions among animal hosts and their associated
                 microbial communities using field experiments, 16S sequencing,
                 metatranscriptomics, statistical modeling, and
                 high-performance computing.
