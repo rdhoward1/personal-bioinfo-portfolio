@@ -1,45 +1,45 @@
 const skillGroups = [
   {
     number: "01",
-    category: "Programming",
-    title: "R · Python · Bash",
+    category: "Multi-omics integration",
+    title: "Molecular profiles · Phenotypes · Biological signatures",
     description:
-      "Statistical analysis, workflow automation, data visualization, command-line scripting, and reproducible reporting with R Markdown.",
+      "Integrate transcriptomic, microbiome, and phenotypic data to identify coordinated biological responses and candidate biomarkers that single modalities may not reveal.",
   },
   {
     number: "02",
-    category: "Omics analysis",
-    title: "RNA-seq · 16S rRNA · Multi-omics",
+    category: "Machine learning & statistics",
+    title: "Classification · Feature selection · Model evaluation",
     description:
-      "Sequence processing, normalization, differential expression, functional annotation, pathway enrichment, and integration across molecular data types.",
+      "Develop supervised models using DIABLO and Random Forest, with hyperparameter tuning, cross-validation, and performance evaluation to assess discriminative features and classification accuracy.",
   },
   {
     number: "03",
-    category: "Machine learning",
-    title: "Predictive modeling · DIABLO",
+    category: "Transcriptomics & functional analysis",
+    title: "RNA-seq · Metatranscriptomics · De novo assembly",
     description:
-      "Supervised classification, feature selection, model tuning, cross-validation, and performance evaluation using balanced error rates, confusion matrices, and ROC–AUC.",
+      "Analyze sequencing data from read processing through assembly, quantification, differential expression, functional annotation, and pathway enrichment, including workflows tailored to non-model organisms.",
   },
   {
     number: "04",
-    category: "Computing and workflows",
-    title: "HPC · Git/GitHub · Linux",
+    category: "Microbiome bioinformatics",
+    title: "Community profiling · Differential abundance · Networks",
     description:
-      "Scalable command-line workflows, version control, reproducible pipeline development, and analysis of large biological datasets on high-performance systems.",
+      "Characterize host-associated microbiomes using DADA2, phyloseq, and vegan, with compositional analysis, multivariate statistics, differential abundance testing, and network analysis.",
   },
   {
     number: "05",
-    category: "Data visualization",
-    title: "ggplot2 · ComplexHeatmap · Cytoscape",
+    category: "Programming & reproducible workflows",
+    title: "R · Python · Bash · HPC · Git",
     description:
-      "Publication-quality figures, clustered heatmaps, multivariate visualizations, and interpretable multi-omic correlation networks.",
+      "Build reproducible analysis workflows using Linux, high-performance computing, version control, and command-line automation. Adapt tools and troubleshoot pipelines for complex biological datasets.",
   },
   {
     number: "06",
-    category: "Microbiome bioinformatics",
-    title: "DADA2 · phyloseq · vegan",
+    category: "Visualization & biological interpretation",
+    title: "ggplot2 · ComplexHeatmap · Cytoscape",
     description:
-      "Compositional data analysis, PERMANOVA, differential abundance, indicator species analysis, WGCNA, and host-associated microbiome analysis.",
+      "Translate complex results into clear figures, integrated networks, and biological interpretations that communicate findings to collaborators across experimental and computational disciplines.",
   },
 ];
 
@@ -50,17 +50,17 @@ function Skills() {
         <p className="eyebrow">Technical toolkit</p>
 
         <h2>
-          Across data types.
-          <span> Into biological insight.</span>
+          Multi-omics integration.
+          <span> Biological insight.</span>
         </h2>
 
         <p className="skills-introduction">
-          I work across diverse molecular datasets and select analytical
-          methods based on the biological question, experimental design, and
-          structure of the data. My experience spans individual omics
-          workflows, integrated multi-omics modeling, and supervised machine
-          learning for classification, feature selection, and candidate
-          biomarker discovery.
+          I combine computational expertise, hands-on laboratory experience,
+          and deep biological understanding to build analyses grounded in
+          experimental design. My toolkit spans sequencing workflows,
+          machine learning, and multi-omics integration, with methods
+          selected to fit the biological question and the assumptions
+          and limitations of each dataset.
         </p>
 
 <div className="skills-image-container">
