@@ -3,6 +3,7 @@ import { useState } from "react";
 const filters = [
   "All",
   "Multi-omics",
+  "Data integration",
   "RNA-seq",
   "Microbiome",
   "Machine learning",
@@ -16,10 +17,10 @@ const projects = [
     title: "Multi-omics signatures of disease in a holobiont system",
     category: "Integrative machine learning",
     summary:
-      "Integrated host and algal symbiont transcriptomes with 16S microbiome profiles to investigate coordinated holobiont responses to stony coral tissue loss disease (SCTLD).",
+      "Integrated host and symbiont transcriptomes with 16S microbiome profiles to investigate coordinated holobiont responses to disease.",
     contribution:
       "Built and tuned species-specific DIABLO models, evaluated classification performance, and translated selected features into interpretable biological networks.",
-    skills: ["Multi-omics", "Machine learning", "Microbiome", "RNA-seq", "HPC", "R"],
+    skills: ["Data integration", "Multi-omics", "Machine learning", "Network analysis", "Microbiome", "RNA-seq", "HPC", "R"],
     methods: [
       "mixOmics",
       "DIABLO",
@@ -40,18 +41,19 @@ const projects = [
   },
   {
     number: "02",
-    title: "Host-associated microbiome metatranscriptomics under hypoxia",
+    title: "Microbial gene expression & functional profiling",
     category: "RNA-seq & metatranscriptomics",
     summary:
-    "Analyzed gene expression within the coral-associated microbiome during diel hypoxia exposure and recovery to characterize microbial functional responses to changing oxygen conditions.",
+    "Characterized microbial gene expression during oxygen stress and recovery to identify functional responses within a host-associated microbiome.",
     contribution:
-      "Developed an HPC workflow spanning read processing, de novo transcriptome assembly, ORF prediction, functional annotation, quantification, and differential expression.",
-    skills: ["RNA-seq", "Microbiome", "HPC", "R"],
+      "Developed an end-to-end HPC workflow for non-model organisms, connecting raw sequencing reads to annotated transcripts, expression estimates, and differentially expressed genes.",
+    skills: ["RNA-seq", "De novo assembly", "Microbiome", "HPC", "R"],
     methods: [
       "FastQC",
+      "MultiQC",
       "Trimmomatic",
       "SortMeRNA",
-      "Trinity",
+      "Trinity (De novo)",
       "Bowtie2 & RSEM",
       "TransDecoder",
       "Trinotate",
@@ -65,12 +67,12 @@ const projects = [
   },
   {
     number: "03",
-    title: "Host-associated microbiomes across oxygen gradients",
+    title: "Microbiome profiling across environmental conditions",
     category: "Microbial community analysis",
     summary:
-      "Examined coral-associated microbial community structure across experimental deoxygenation treatments and field sites in Bocas del Toro, Panama.",
+      "Evaluated how host identity and environmental conditions shape microbiome composition across controlled experiments and field studies.",
     contribution:
-      "Developed reproducible 16S workflows and multivariate analyses to evaluate differences associated with host species, site, depth, and oxygen conditions.",
+      "Built reproducible 16S analysis workflows and applied multivariate modeling and differential abundance analysis to identify microbial taxa associated with oxygen stress and environmental variation.",
     skills: ["Microbiome", "HPC", "R"],
     methods: [
       "16S rRNA data processing",
@@ -88,20 +90,21 @@ const projects = [
   },
   {
     number: "04",
-    title: "Host immunity and microbial symbiosis",
+    title: "Integrating microbiome profiles & host immune function",
     category: "Host-microbe interactions",
     summary:
-      "Investigated microbial communities in symbiotic and aposymbiotic model cnidarian systems alongside measurements of host immune function.",
+      "Investigated relationships between microbiome composition, symbiotic state, and host immune function to characterize microbial associations with host physiology.",
     contribution:
-      "Connected microbial community profiles with enzyme activity measurements using multivariate statistics, network analysis, and interpretable visualization.",
-    skills: ["Microbiome", "HPC", "R"],
-    methods: [
+      "Integrated microbial community profiles with immune enzyme activity measurements using multivariate statistics and network analysis to identify associations between microbial taxa and host immune responses.",
+    skills: ["Data integration", "Network analysis", "Microbiome", "HPC", "R"],
+      methods: [
       "16S rRNA data processing",
       "Cutadapt",
       "DADA2",
       "phyloseq",
       "vegan",
       "PERMANOVA",
+      "ANCOM-BC",
       "WGCNA",
       "Indicator species",
       "ggplot2",
