@@ -44,10 +44,10 @@ function App() {
 
           <div className="hero-image-container">
             <img
-              className="hero-image"
-              src={`${import.meta.env.BASE_URL}Rhow.jpg`}
-              alt="Rachel Howard, computational biologist"
-            />
+            className="hero-image"
+            src={`${import.meta.env.BASE_URL}RHow.jpg`}
+            alt="Rachel Howard, computational biologist"
+          />
           </div>
         </div>
       </section>
